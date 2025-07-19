@@ -1,3 +1,3 @@
 run:
-	@gcc -o bin main.c 
-	@./bin
+	@gcc -o ./bin/bin main.c 
+	@./bin/bin
