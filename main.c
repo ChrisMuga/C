@@ -13,7 +13,7 @@ int main() {
 	printf("%d\n", p);
 	// q takes the address of p;
 	q = &p;
-	// Derereferencing p (1000) and re-assigning it to the new value (3000)
+	// Dereferencing p (1000) and re-assigning it to the new value (3000)
 	*q = 3000;
 	printf("%d\n", *q);
 
